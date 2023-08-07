@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logo.svg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Laracasts</title>
+</head>
+
+<body>
+    <header class="navigation">
+        <div class="navigation-logo">
+            <img src="images/logo.svg" alt="logo">
+        </div>
+        <div class="navigation-buttons">
+            <span><a href="#">Home page</a></span>
+            <button class="nav-button"><a href="#">Subscribe for updates</a></button>
+        </div>
+    </header>
+    
+    <div class="mobile-navbar-container">
+        <input type="checkbox" id="checkboxMenu">
+        <label for="checkboxMenu"><i class="fa fa-bars"></i></label>
+
+        <div class=mobile_logo>
+            <a href="#">
+                <img src="/images/logo.svg"
+                    alt="logo">
+            </a>
+        </div>
+        <div class="mobile__menu">
+            <label for="checkboxMenu"><i class="fa fa-bars"></i></label>
+            <nav>
+                <a  href="#">Home page</a>
+                <a  href="#">Subscribe for updates</a>
+            </nav>
+        </div>
+
+    </div>
+
+    
+    <main>
+
+
+        <section class="head">
+            <div class="head-text">
+                <header>
+                    <h2>Latest <span>Laravel From Scratch</span> News</h2>
+                    <div class="lary-head">
+                        <span>By Lary Laracore</span>
+                        <img src="images/lary-head.svg" alt="lary-head-avatar">
+                    </div>
+                </header>
+                <p>Another year. Another update.We're refreshing the popular Laravel series with new
+                    content.I'm going to keep you guys up to speed with what's going on!
+                </p>
+            </div>
+            <div class="dropdown">
+                <select name="category" id="category">
+                    <option value="" disabled selected>Category</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <select name="Filter" id="Filter">
+                    <option value="" disabled selected>Other Filters</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <input type="search" name="search" placeholder="Find something">
+            </div>
+        </section>
+
+        <section class="hero">
+            <div class="cards-container">
+                <div class="horizontal-card-container">
+                    <div class="main-card-img">
+                        <img src="images/illustration-1.png" alt="illustration">
+                    </div>
+                    <div class="main-card-text">
+                        <div class="main-card-buttons">
+                            <button class="techniques"><a href="#">Techniques</a></button>
+                            <button class="updates"><a href="#">Updates</a></button>
+                        </div>
+                        <div class="main-card-heading">
+                            <h2>This is a big title and it will look great on two ore even three lines.Woohoo!</h2>
+                            <span>Published 1 day ago</span>
+                        </div>
+                        <div class="main-card-paragraph">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Odit culpa nesciunt quibusdam vero consequatur, illum obcaecati?
+                                Deserunt sequi in veritatis voluptate non nam fugit possimus, adipisci laboriosam id
+                                doloribus odio?</p>
+                        </div>
+                        <div class="main-card-footer">
+                            <div class="footer-publisher">
+                                <div class="footer-avatar">
+                                    <img src="images/lary-head.svg" alt="avatar">
+                                </div>
+                                <div class="publisher-name">
+                                    <span>Lary Laracore</span>
+                                    <span>Mascot at Laracasts</span>
+                                </div>
+                            </div>
+                            <div class="footer-button">
+                                <button><a href="#">Read More</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-card-container">
+                    <div class="main-card-img">
+                        <img src="images/illustration-1.png" alt="illustration">
+                    </div>
+                    <div class="main-card-text">
+                        <div class="main-card-buttons">
+                            <button class="techniques"><a href="#">Techniques</a></button>
+                            <button class="updates"><a href="#">Updates</a></button>
+                        </div>
+                        <div class="main-card-heading">
+                            <h2>This is a big title and it will look great on two ore even three lines.Woohoo!</h2>
+                            <span>Published 1 day ago</span>
+                        </div>
+                        <div class="main-card-paragraph">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Odit culpa nesciunt quibusdam vero consequatur, illum obcaecati?
+                                Deserunt sequi in veritatis voluptate non nam fugit possimus, adipisci laboriosam id
+                                doloribus odio?</p>
+                        </div>
+                        <div class="main-card-footer">
+                            <div class="footer-publisher">
+                                <div class="footer-avatar">
+                                    <img src="images/lary-head.svg" alt="avatar">
+                                </div>
+                                <div class="publisher-name">
+                                    <span>Lary Laracore</span>
+                                    <span>Mascot at Laracasts</span>
+                                </div>
+                            </div>
+                            <div class="footer-button">
+                                <button><a href="#">Read More</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-card-container">
+                    <div class="main-card-img">
+                        <img src="images/illustration-2.png" alt="illustration">
+                    </div>
+                    <div class="main-card-text">
+                        <div class="main-card-buttons">
+                            <button class="techniques"><a href="#">Techniques</a></button>
+                            <button class="updates"><a href="#">Updates</a></button>
+                        </div>
+                        <div class="main-card-heading">
+                            <h2>This is a big title and it will look great on two ore even three lines.Woohoo!</h2>
+                            <span>Published 1 day ago</span>
+                        </div>
+                        <div class="main-card-paragraph">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Odit culpa nesciunt quibusdam vero consequatur, illum obcaecati?
+                                Deserunt sequi in veritatis voluptate non nam fugit possimus, adipisci laboriosam id
+                                doloribus odio?</p>
+                        </div>
+                        <div class="main-card-footer">
+                            <div class="footer-publisher">
+                                <div class="footer-avatar">
+                                    <img src="images/lary-head.svg" alt="avatar">
+                                </div>
+                                <div class="publisher-name">
+                                    <span>Lary Laracore</span>
+                                    <span>Mascot at Laracasts</span>
+                                </div>
+                            </div>
+                            <div class="footer-button">
+                                <button><a href="#">Read More</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="small-cards-container">
+            <div class="small-card">
+                <div class="small-card-img">
+                    <img src="images/illustration-3.png" alt="illustration">
+                </div>
+                <div class="small-card-text">
+                    <div class="small-card-buttons">
+                        <button class="techniques"><a href="#">Techniques</a></button>
+                        <button class="updates"><a href="#">Updates</a></button>
+                    </div>
+                    <div class="small-card-heading">
+                        <h2>This is a big title and it will look great on two or even three lines. Woohoo!</h2>
+                        <span>Published 1 day ago</span>
+                    </div>
+                    <div class="small-card-paragraph">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Aliquam officiis dolor enim porro magni, eos a officia quibusdam eum placeat tempora
+                            temporibus.
+                            Cumque neque molestiae asperiores iste non tenetur ab?</p>
+                    </div>
+                    <div class="small-card-footer">
+                        <div class="footer-publisher">
+                            <div class="footer-avatar">
+                                <img src="images/lary-head.svg" alt="avatar">
+                            </div>
+                            <div class="publisher-name">
+                                <span>Lary Laracore</span>
+                                <span>Mascot at Laracasts</span>
+                            </div>
+                        </div>
+                        <div class="footer-button">
+                            <button><a href="#">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="small-card">
+                <div class="small-card-img">
+                    <img src="images/illustration-4.png" alt="illustration">
+                </div>
+                <div class="small-card-text">
+                    <div class="small-card-buttons">
+                        <button class="techniques"><a href="#">Techniques</a></button>
+                        <button class="updates"><a href="#">Updates</a></button>
+                    </div>
+                    <div class="small-card-heading">
+                        <h2>This is a big title and it will look great on two or even three lines. Woohoo!</h2>
+                        <span>Published 1 day ago</span>
+                    </div>
+                    <div class="small-card-paragraph">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Aliquam officiis dolor enim porro magni, eos a officia quibusdam eum placeat tempora
+                            temporibus.
+                            Cumque neque molestiae asperiores iste non tenetur ab?</p>
+                    </div>
+                    <div class="small-card-footer">
+                        <div class="footer-publisher">
+                            <div class="footer-avatar">
+                                <img src="images/lary-head.svg" alt="avatar">
+                            </div>
+                            <div class="publisher-name">
+                                <span>Lary Laracore</span>
+                                <span>Mascot at Laracasts</span>
+                            </div>
+                        </div>
+                        <div class="footer-button">
+                            <button><a href="#">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="small-card">
+                <div class="small-card-img">
+                    <img src="images/illustration-5.png" alt="illustration">
+                </div>
+                <div class="small-card-text">
+                    <div class="small-card-buttons">
+                        <button class="techniques"><a href="#">Techniques</a></button>
+                        <button class="updates"><a href="#">Updates</a></button>
+                    </div>
+                    <div class="small-card-heading">
+                        <h2>This is a big title and it will look great on two or even three lines. Woohoo!</h2>
+                        <span>Published 1 day ago</span>
+                    </div>
+                    <div class="small-card-paragraph">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Aliquam officiis dolor enim porro magni, eos a officia quibusdam eum placeat tempora
+                            temporibus.
+                            Cumque neque molestiae asperiores iste non tenetur ab?</p>
+                    </div>
+                    <div class="small-card-footer">
+                        <div class="footer-publisher">
+                            <div class="footer-avatar">
+                                <img src="images/lary-head.svg" alt="avatar">
+                            </div>
+                            <div class="publisher-name">
+                                <span>Lary Laracore</span>
+                                <span>Mascot at Laracasts</span>
+                            </div>
+                        </div>
+                        <div class="footer-button">
+                            <button><a href="#">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-image">
+            <img src="images/lary-newsletter-icon.png" alt="avatar">
+        </div>
+        <div class="footer-text">
+            <h2>Stay in touch with the latest posts</h2>
+            <span>Promise to keep the inbox clean. No bugs.</span>
+        </div>
+        <div class="footer-input">
+            <i class="fa fa-envelope icon"></i>
+            <input type="email" name="email" placeholder="Your email address" required>
+            <button class="subscribe-btn" type="submit"><a href="#">Subscribe</a></button>
+        </div>
+
+    </footer>
+</body>
+
+</html>
