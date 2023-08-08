@@ -1,0 +1,62 @@
+.techniques {
+    border-radius: 2rem;
+    background: none;
+    outline: none;
+    padding: 1rem;
+    border: 1px solid;
+    border-color: rgb(59, 176, 214);
+
+}
+
+.techniques a {
+    text-transform: uppercase;
+    padding: 1rem;
+    text-decoration: none;
+    color: rgb(59, 176, 214);
+}
+
+.updates {
+    border-radius: 2rem;
+    background: none;
+    outline: none;
+    border: 1px solid;
+    border-color: rgb(215, 108, 51);
+
+}
+
+.updates a {
+    text-transform: uppercase;
+    padding: 2rem;
+    text-decoration: none;
+    color: rgb(215, 108, 51);
+}
+
+.main-card-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 3%;
+    margin: 2rem 0;
+}
+
+.footer-button button {
+    border-radius: 2rem;
+    background: rgb(210, 210, 210);
+    outline: none;
+    padding: 0.6rem 2rem;
+    border: none;
+
+}
+
+.subscribe-btn {
+    padding: 1rem;
+    background: rgb(105, 111, 224);
+    border-radius: 2rem;
+    position: absolute;
+    right: 26%;
+    bottom: 14%;
+
+}
+.subscribe-btn {
+    right: 12%;
+    bottom: 2%;
+}
